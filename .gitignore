@@ -1,0 +1,61 @@
+# Android
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Machine Learning
+*.h5
+*.pkl
+*.model
+models/
+checkpoints/
+
+# Configuration
+config.properties
+*.key
+*.pem
+.env
+
+# Data
+data/raw/
+data/processed/
+*.csv
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# OS
+Thumbs.db
